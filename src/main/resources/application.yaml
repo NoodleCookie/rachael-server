@@ -1,0 +1,12 @@
+spring:
+  security:
+    saml2:
+      relyingparty:
+        registration:
+          rachael:
+            identityprovider:
+              entity-id: http://www.okta.com/exk3ruj219hJehtpT5d7
+              verification.credentials:
+                - certificate-location: "classpath:saml-certificate/rachael.crt"
+              singlesignon.url: https://dev-15510084.okta.com/app/dev-15510084_rachael_1/exk3ruj219hJehtpT5d7/sso/saml
+              singlesignon.sign-request: false
