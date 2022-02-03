@@ -8,6 +8,6 @@ public class Redirect {
 
     @GetMapping("/")
     public String redirect() {
-        return "redirect:http://localhost:8081";
+        return "redirect:https://rachael.linko.top";
     }
 }
